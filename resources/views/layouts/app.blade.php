@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{--  <link rel="stylesheet" href="{{asset ('/css/login_register.css')}}" type="text/css" media="all" />  --}}
 </head>
 <body class="login-page" style="min-height: 512.8px;">
     <div class="login-box">

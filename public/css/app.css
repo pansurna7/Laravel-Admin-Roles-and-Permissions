@@ -66,7 +66,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: blue;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -20315,14 +20316,16 @@ html.maximized-card {
 
 .login-logo a,
 .register-logo a {
-  color: #495057;
+  color: #d6da10;
 }
 
 .login-page,
 .register-page {
   -ms-flex-align: center;
   align-items: center;
-  background: #e9ecef;
+  /* background: yellow; */
+  background-image: url("/img/landscape.jpg");
+  
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -20347,10 +20350,14 @@ html.maximized-card {
 
 .login-card-body,
 .register-card-body {
-  background: #ffffff;
+  background: #343a40;
   border-top: 0;
   color: #666;
-  padding: 20px;
+  padding: 20px; */
+
+
+  
+ 
 }
 
 .login-card-body .input-group .form-control,
@@ -31217,8 +31224,7 @@ a.text-muted:hover {
 
 [class*="accent-"] a.btn-dark {
   color: #ffffff;
-}
-@charset "UTF-8";
+}@charset "UTF-8";
 
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
@@ -48252,7 +48258,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #fff
+  /*  */
 }
 
 .card-header {
@@ -48269,4 +48276,30 @@ body {
   padding: 10px 12px;
   border-radius: 10px;
 }
+/* .register-background {
+  background-image: url("/img/landscape.jpg"); 
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+} */
 
+/* .register-background .filter-black::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.register-background .container {
+  margin-top: 11%;
+  position: relative;
+  z-index: 3;
+} */
